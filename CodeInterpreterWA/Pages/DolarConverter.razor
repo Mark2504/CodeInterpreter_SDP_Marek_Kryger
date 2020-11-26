@@ -1,0 +1,60 @@
+﻿
+@page "/dolarconverter"
+
+<h3>Dolar Converter</h3>
+
+<div class="form-group">
+    <div class="col-md-4">
+        <div class="form-group">
+            <label>Dolar</label>
+            <input type="number" class="form-control" placeholder="Dolar ...." @bind="Dolar" />
+        </div>
+    </div>
+</div>
+
+<div class="form-group">
+    <div class="col-md-4">
+        <div class="form-group">
+            <label>Exchange rate</label>
+            <input type="number" class="form-control" placeholder="Default rate (3,96)" @bind="Exchange" />
+        </div>
+        <button class="btn btn-primary" @onclick="ConvertDolar">
+            <span class="oi oi-clock" aria-hidden="true"></span> Convert
+        </button>
+    </div>
+</div>
+
+@if (_zloty != null)
+{
+    <div class="row blockquote mt-5">
+        <span>@_zloty złoty!</span>
+    </div>
+}
+
+@code {
+
+    double? _zloty = null;
+    double? _exchange = null;
+
+    public int? Dolar { get; set; }
+
+    public double? Exchange
+    {
+        get => _exchange;
+        set => _exchange = value;
+    }
+
+    private void ConvertDolar()
+    {
+        if (_exchange != null)
+        {
+            _zloty = Dolar * _exchange;
+        }
+        else
+        {
+            _zloty = Dolar * 3.96;
+        }
+
+    }
+
+}
