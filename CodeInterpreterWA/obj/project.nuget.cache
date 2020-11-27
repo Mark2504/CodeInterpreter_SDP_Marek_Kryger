@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RWnEc7yhylG070KhtcjtKumhpxjRvfPlXtGqQuqKkBMUjCwj2Kvpy/rjFLOIMI/9keBZR6tD7LPtkchIgsAADw==",
+  "dgSpecHash": "ElUTopy/mYciYA/uyZbZUTe3Usu0BmawmELWyplHGnVUGIXo9v583+ET5ak4ShX1hKe5S96Ar4wIU3XMlIeEYA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\dell\\source\\student_development_program\\CodeInterpreterWA\\CodeInterpreterWA\\CodeInterpreterWA.csproj",
+  "projectFilePath": "C:\\Users\\dell\\source\\student_development_program\\CodeInterpreter\\CodeInterpreterWA\\CodeInterpreterWA.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dell\\.nuget\\packages\\markdig\\0.22.0\\markdig.0.22.0.nupkg.sha512",
     "C:\\Users\\dell\\.nuget\\packages\\microsoft.aspnetcore.authorization\\5.0.0\\microsoft.aspnetcore.authorization.5.0.0.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dell\\source\\student_development_program\\CodeInterpreterWA\\CodeInterpreterWA\\CodeInterpreterWA.csproj": {}
+    "C:\\Users\\dell\\source\\student_development_program\\CodeInterpreter\\CodeInterpreterWA\\CodeInterpreterWA.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dell\\source\\student_development_program\\CodeInterpreterWA\\CodeInterpreterWA\\CodeInterpreterWA.csproj": {
+    "C:\\Users\\dell\\source\\student_development_program\\CodeInterpreter\\CodeInterpreterWA\\CodeInterpreterWA.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dell\\source\\student_development_program\\CodeInterpreterWA\\CodeInterpreterWA\\CodeInterpreterWA.csproj",
+        "projectUniqueName": "C:\\Users\\dell\\source\\student_development_program\\CodeInterpreter\\CodeInterpreterWA\\CodeInterpreterWA.csproj",
         "projectName": "CodeInterpreterWA",
-        "projectPath": "C:\\Users\\dell\\source\\student_development_program\\CodeInterpreterWA\\CodeInterpreterWA\\CodeInterpreterWA.csproj",
+        "projectPath": "C:\\Users\\dell\\source\\student_development_program\\CodeInterpreter\\CodeInterpreterWA\\CodeInterpreterWA.csproj",
         "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dell\\source\\student_development_program\\CodeInterpreterWA\\CodeInterpreterWA\\obj\\",
+        "outputPath": "C:\\Users\\dell\\source\\student_development_program\\CodeInterpreter\\CodeInterpreterWA\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
